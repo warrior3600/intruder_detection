@@ -12,3 +12,4 @@ tqdm
 moviepy
 ultralytics
 rfdetr
+python-dotenv

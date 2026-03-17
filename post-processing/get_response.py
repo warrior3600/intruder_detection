@@ -4,9 +4,13 @@ import cv2
 from PIL import Image
 import numpy as np
 import json
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ==== Config ====
-API_KEY = "KEY"
+# Assuming your .env file has: GEMINI_API_KEY="your-key-here"
+API_KEY = os.getenv("GEMINI_API_KEY")
 VIDEO_FILE = "/teamspace/studios/this_studio/output_clips/clip_001.mp4"
 FRAME_INTERVAL_SECONDS = 2  # extract a frame every 2 seconds
 
