@@ -2,6 +2,14 @@
 
 This repository contains an end-to-end pipeline for intelligent intruder detection. The pipeline handles data preprocessing (video frame extraction), object detection model training (YOLO and DETR variants), video inference, and contextual analysis utilizing Large Language Models (LLMs) such as Gemini for generating structured reports (e.g., number of intruders, hostages, or observed weapons) from the footage.
 
+The annotated video output highlighting class definitions and visual boxes over moving subjects successfully tracked by our tuned transformer object detection variants:
+
+
+Uploading output.mp4…
+
+
+
+
 ## Project Structure
 
 The project is structured into three main directories:
@@ -119,13 +127,3 @@ To run it, open your terminal and simply trigger:
 ```bash
 python run_batch_inference.py
 ```
-
----
-
-## Results Evaluation
-
-The annotated video output highlighting class definitions and visual boxes over moving subjects successfully tracked by our tuned transformer object detection variants:
-
-![Processed Output Video](assets/output.mp4)
-
-*(Note: The above local video file can be viewed using relative pathing assuming markdown renderer capacities or an appropriate local playback application.)*
