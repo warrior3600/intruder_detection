@@ -4,11 +4,7 @@ This repository contains an end-to-end pipeline for intelligent intruder detecti
 
 The annotated video output highlighting class definitions and visual boxes over moving subjects successfully tracked by our tuned transformer object detection variants:
 
-
-Uploading output.mp4…
-
-
-
+[Processed video](./assets/output.mp4)
 
 ## Project Structure
 
