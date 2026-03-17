@@ -1,0 +1,19 @@
+{
+  "criminals_detected": "yes",
+  "number_hooded_individuals": 2,
+  "number_hostages": 0,
+  "Crime_intensity_level": "medium",
+  "criminals": [
+    {
+      "criminal_id": "Criminal 1",
+      "criminal_dress": "Dark hooded jacket, dark pants",
+      "criminal_armed": "no"
+    },
+    {
+      "criminal_id": "Criminal 2",
+      "criminal_dress": "Dark hooded jacket, dark pants",
+      "criminal_armed": "no"
+    }
+  ],
+  "incident_description": "Two hooded individuals robbed a convenience store. They did not appear to be armed. They stole cash and other items."
+}
