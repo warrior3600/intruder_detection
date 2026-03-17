@@ -1,0 +1,14 @@
+opencv-python
+pandas
+google-generativeai
+Pillow
+numpy
+torch
+torchvision
+roboflow
+python-dotenv
+supervision
+tqdm
+moviepy
+ultralytics
+rfdetr
